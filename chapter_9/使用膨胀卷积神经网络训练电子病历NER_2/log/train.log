@@ -1,0 +1,41 @@
+2019-03-08 22:24:48,361 - log/train.log - INFO - model_type     :	idcnn
+2019-03-08 22:24:48,361 - log/train.log - INFO - num_chars      :	1762
+2019-03-08 22:24:48,361 - log/train.log - INFO - char_dim       :	100
+2019-03-08 22:24:48,361 - log/train.log - INFO - num_tags       :	50
+2019-03-08 22:24:48,362 - log/train.log - INFO - seg_dim        :	20
+2019-03-08 22:24:48,362 - log/train.log - INFO - lstm_dim       :	100
+2019-03-08 22:24:48,362 - log/train.log - INFO - batch_size     :	60
+2019-03-08 22:24:48,362 - log/train.log - INFO - emb_file       :	/home/kuo/NLP/NLP_basis/9_chapter/9.2使用膨胀卷积神经网络训练电子病历NER/data/vec.txt
+2019-03-08 22:24:48,362 - log/train.log - INFO - clip           :	5
+2019-03-08 22:24:48,362 - log/train.log - INFO - dropout_keep   :	0.5
+2019-03-08 22:24:48,363 - log/train.log - INFO - optimizer      :	adam
+2019-03-08 22:24:48,363 - log/train.log - INFO - lr             :	0.001
+2019-03-08 22:24:48,363 - log/train.log - INFO - tag_schema     :	iobes
+2019-03-08 22:24:48,363 - log/train.log - INFO - pre_emb        :	True
+2019-03-08 22:24:48,363 - log/train.log - INFO - zeros          :	True
+2019-03-08 22:24:48,363 - log/train.log - INFO - lower          :	False
+2019-03-08 22:24:51,838 - log/train.log - INFO - Created model with fresh parameters.
+2019-03-08 22:24:53,926 - log/train.log - INFO - Load pre-trained embedding.
+2019-03-08 22:24:53,926 - log/train.log - INFO - start training
+2019-03-08 22:26:32,637 - log/train.log - INFO - iteration:1 step:100/131, NER loss:73.546288
+2019-03-08 22:27:11,355 - log/train.log - INFO - model saved
+2019-03-08 22:28:34,020 - log/train.log - INFO - iteration:2 step:69/131, NER loss:47.119278
+2019-03-08 22:30:21,145 - log/train.log - INFO - iteration:3 step:38/131, NER loss:28.559797
+2019-03-08 22:32:22,615 - log/train.log - INFO - iteration:4 step:7/131, NER loss:23.598778
+2019-03-08 22:34:09,466 - log/train.log - INFO - iteration:4 step:107/131, NER loss:19.791019
+2019-03-08 22:35:50,581 - log/train.log - INFO - iteration:5 step:76/131, NER loss:14.357718
+2019-03-08 22:37:37,862 - log/train.log - INFO - iteration:6 step:45/131, NER loss:14.341085
+2019-03-08 22:39:29,917 - log/train.log - INFO - iteration:7 step:14/131, NER loss:12.981470
+2019-03-08 22:41:15,727 - log/train.log - INFO - iteration:7 step:114/131, NER loss: 9.601355
+2019-03-08 22:43:26,276 - log/train.log - INFO - iteration:8 step:83/131, NER loss: 9.510235
+2019-03-08 22:44:22,011 - log/train.log - INFO - model saved
+2019-03-08 22:45:16,203 - log/train.log - INFO - iteration:9 step:52/131, NER loss: 7.526762
+2019-03-08 22:46:54,695 - log/train.log - INFO - iteration:10 step:21/131, NER loss: 9.012171
+2019-03-08 22:48:22,538 - log/train.log - INFO - iteration:10 step:121/131, NER loss: 5.922502
+2019-03-08 22:49:39,602 - log/train.log - INFO - iteration:11 step:90/131, NER loss: 5.326233
+2019-03-08 22:51:06,258 - log/train.log - INFO - iteration:12 step:59/131, NER loss: 6.696064
+2019-03-08 22:52:26,563 - log/train.log - INFO - iteration:13 step:28/131, NER loss: 5.256997
+2019-03-08 22:53:46,819 - log/train.log - INFO - iteration:13 step:128/131, NER loss: 5.401686
+2019-03-08 22:55:06,735 - log/train.log - INFO - iteration:14 step:97/131, NER loss: 4.456995
+2019-03-08 22:56:18,725 - log/train.log - INFO - iteration:15 step:66/131, NER loss: 4.294592
+2019-03-08 22:57:15,844 - log/train.log - INFO - model saved
